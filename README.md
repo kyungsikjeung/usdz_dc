@@ -1,9 +1,17 @@
 ## usdz_dc
 
+
+
 # 1. brew 설치
 ```code
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
+# 만약 git 이 설치되어 있지 않다면
+```code
+brew install git
+```
+
 # 2. brew로 USD 설치
 ```code
 brew install usd
