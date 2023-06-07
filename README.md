@@ -22,7 +22,7 @@ make -j
 ```
 
 
-3. 파이선 편집 
+# 파이선 편집 방법(5번항목 참조)
 ```code
 cd /Users/yourusername/Documents
 nano myscript.py (이하 내용)
