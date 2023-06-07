@@ -1,15 +1,14 @@
 ## usdz_dc
 
 
-
-# 1. brew 설치
+# 1. 필수 설치
 ```code
+#  brew 설치
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-# 만약 git 이 설치되어 있지 않다면
-```code
+#  git 설치
 brew install git
+#  cmake 설치
+brew install cmake
 ```
 
 # 2. brew로 USD 설치
@@ -34,7 +33,7 @@ make -j
 ```code
 cd /Users/yourusername/Documents
 nano myscript.py (이하 내용)
-# 5번 항목 참조
+# 5번 항목 내용 쓰기
 Control+X , 그리고 y
 
 
