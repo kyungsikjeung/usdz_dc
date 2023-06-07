@@ -1,15 +1,15 @@
-# usdz_dc
+## usdz_dc
 
-1. 홈 브류 설치
+# 1. 홈 브류 설치
 ```code
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-2. USD 설치
+# 2. USD 설치
 ```code
 brew install usd
 ```
 
-3. Draco 압축을 위해, Draco를 GitHub에서 다운로드 및 cmake :
+# 3. Draco 압축을 위해, Draco를 GitHub에서 다운로드 및 cmake :
 ```code
 git clone https://github.com/google/draco.git
 cd draco
@@ -30,11 +30,11 @@ Control+X , 그리고 y
 python myscript.py
 ```
 
-4. 파이선 실행
+# 4. 파이선 실행
 ```code
 from pxr import Usd, UsdDraco
 ```
-# USD 파일 열기
+# 5. USD 파일 열기
 ```code
 stage = Usd.Stage.Open('yourfile.usd')
 
